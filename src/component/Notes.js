@@ -38,7 +38,7 @@ const Notes = ({
           Delete
         </button>
         <button onClick={archiveHandler} className="archive-btn">
-          {isArchived ? "Pindahkan" : "Arsipkan"}
+          {isArchived ? "Switch" : "Archive"}
         </button>
       </div>
     </StyledNote>
